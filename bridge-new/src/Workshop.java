@@ -11,5 +11,6 @@ public abstract class Workshop {
         setType();
         setSpeed();
         engine.assemble();
+        System.out.println("Processing");
     }
 }
